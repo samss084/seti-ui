@@ -48,11 +48,13 @@ Once everything is setup, follow these steps any time you want to add a new icon
   You will need to do this once for every extension, you want to target. For example, if you want to target both **.sass** and **.scss** extensions, you would add the following:
 
   ```
-  .icon-set('.sass', 'sass', @pink);
-  .icon-set('.scss', 'sass', @pink);
+  .icon-set('.sass', 'sass', );
+  .icon-set('.scss', 'sass', );
   ```
 
-  3. Run `gulp svg` to minimize the svg files.
+  3. Run <label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
 
 ## Previewing in VS Code
 
@@ -70,7 +72,9 @@ Please don't include the built files in your Pull Requests, because it can cause
 
 
 
-##### **Please Note:** This is the Seti interface theme for [VS Code](https://code.visualstudio.com/) only
+##### **Please Note:** This is the Seti interface theme for [VS Code](https://code.visualstudio.com/) only <label for="file">File progress:</label>
+
+<progress id="file" max="100" value="100">100%</progress>
 
 If these are not the droids you're looking for, may I point you in the direction of these great ports:
 + [Hyper](https://hyper.is/)
